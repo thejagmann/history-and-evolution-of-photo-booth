@@ -1,0 +1,1 @@
+Sitemap: https://photoboothsworcester.netlify.app/sitemap.xml
