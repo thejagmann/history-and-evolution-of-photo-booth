@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>Photo Booth Development</title>
+<meta name="title" content="Photo Booth Development">
+<meta name="dc.title" content="Photo Booth Development">
+<meta name="description" content="History and evolution of photo booths: From 19th century parlor tricks to modern-day digital technology, explore the development of photo booths.">
+<meta name="keywords" content="Photo Booth Development,Photo Booth Development">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://photoboothsworcester.netlify.app/photo-booth-development.html">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Kumbh+Sans:100,200,300,400,500,600,700,800,900&amp;display=swap">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="img/" alt="Photo Booth Development" />
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+<style type="text/css"> 
+.t48fe0f0473cb3b4c98eac2a7b2eaa37c{
+color: #494949;
+}
+.x6784da3df5b10ec3c45995b671e827ae{
+background:#fdfbf7;
+color:#0b0b0b;
+}
+.a031a71eae149acbe10abe0fc1c504b16{
+position: relative;
+z-index: 1;
+}
+.w9c1f2f905362949184ff128089b8ba93{
+position: relative;
+z-index: 1;
+}
+.waa440b82d0e53be94cafee9e51a18317{
+width: 100%;
+max-height: 720px;
+object-fit: cover;
+object-position: center;
+display: block;
+max-height: 100%;
+max-width: 100%;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-header h6.collapsed{
+color: #1b1e6b;
+}
+.v5a414d5a33193d4743b4808fe00359db{
+background-color:#ffc107!important;
+border-color:#ffc107!important;
+color:#000000!important;
+}
+.nav-link{
+color: #000000!important;
+
+}
+.vdbe8feb2e65dc00eac1e7e099145f9c0{
+text-decoration: underline!important;color:#ff9228!important
+}
+.x7f8c348df55b46abf22846efd1acacb8:hover,.v939b249b180b1ff154a8a15d5b248de2:hover{
+background-size: 100% 100% !important;
+background-image: linear-gradient(120deg,  0%,  100%) !important;
+background-repeat: no-repeat !important;
+background-position: 0 90% !important;
+transition: background-size 0.2s ease-in !important;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card:last-child{
+margin-bottom: 0;
+}
+.bcec5d60fba0c5d546244e3026b9ffa30{
+position: relative;
+min-height: 30px
+}
+.x0a040c8ff42dc6d4035f8c08f467594e{
+font-size: 45px!important;
+}
+ul{
+list-style: circle;
+}
+.u10c014bc472a110a360cb5ba5291f24c{
+font-size: 2rem !important;
+}
+.ye9097415eb145ed9c87ef7b75d0cace8{
+transition: all 0.3s;
+border-radius: 30px;
+}
+.ye9097415eb145ed9c87ef7b75d0cace8:hover{
+box-shadow: 0 50.4px 49.9px -25px rgb(0 0 0 / 30%);
+transform: rotate(-2deg) scale(1.03);
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-header{
+background-color: #ffffff;
+padding: 0;
+border-bottom-color: #eeeeee;
+}
+a{
+text-decoration: none;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-header h6.collapsed span{
+-webkit-transform: rotate(-180deg);
+transform: rotate(-180deg);
+}
+.ab8c48b85eb68e8c4ec56f37101626c17{
+background:#eae8e4!important ;
+}
+footer{
+background:#121212;
+color:#ffffff;
+}
+.dde96cd3bb7bbc0d11f753cd73103f256 *{
+color: white !important;
+}
+.navbar-toggler span{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgrey;
+border-radius: 3px;
+}
+.dropdown-menu{
+top:79%;
+max-width: 800px;
+overflow-x: auto;
+}
+.bbb425054f5998e831e77b0a109869cf5{
+background:#ffffff;
+}
+.vd0e176f326bab9df28be3e02441583bd{
+color: #a6a6a6;
+font-size: 19.8px;
+margin-bottom: 20.8px;
+}
+.dde96cd3bb7bbc0d11f753cd73103f256{
+background: rgba(0, 0, 0, 0.6);
+text-align: center;
+}
+.bbb425054f5998e831e77b0a109869cf5 p,.bbb425054f5998e831e77b0a109869cf5 span,.bbb425054f5998e831e77b0a109869cf5 label{
+font-size:16px!important;
+}
+.x6784da3df5b10ec3c45995b671e827ae a,.bbb425054f5998e831e77b0a109869cf5 a{
+color:#0b0b0b!important;
+text-decoration: underline !important;
+}
+.nav-item{
+padding-left:7.7px;
+padding-right:7.5px;
+padding-top:5.3px;
+padding-bottom:5px;
+}
+.t66634b96f04e8dcfd178d3c967019c41{
+background-color: #090909;
+font-size: 30px;
+height: 56.2px;
+min-width: 56.3px;
+padding: 0.7rem;
+padding-top: 13.5px;
+color: #fff !important;
+border: 1px solid #0d0d0d;
+border-radius: 50%;
+}
+footer a{
+color:#ffffff;
+text-decoration: underline;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-header h6 span{
+font-size: 1.5rem;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-body p:last-child{
+margin-bottom: 0;
+}
+.xbaee1a7a31bbe57160e7fa2843a5abb7{
+font-size:45px!important;
+}
+.vd911739973fa3a809846a272ac4a494e{
+font-size: 19.6px;
+font-weight: bold;
+}
+.db6dba93d359f0428b191db8efdc1cea7 *{
+color:#000000;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-header h6{
+cursor: pointer;
+padding: 1.75rem 2rem;
+color: #3f43fd;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-ms-grid-row-align: center;
+align-items: center;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+}
+.x6784da3df5b10ec3c45995b671e827ae p,.x6784da3df5b10ec3c45995b671e827ae a,.x6784da3df5b10ec3c45995b671e827ae span,.x6784da3df5b10ec3c45995b671e827ae label{
+font-size:16px!important;
+}
+.btn-md{
+padding: 15px 30.5px;
+border-radius: 0;
+}
+footer *{
+font-size:16px !important;
+}
+body{
+color: #272727;
+}
+.navbar a{
+font-size: 17.7px!important;
+font-weight: bold;
+}
+.bbb425054f5998e831e77b0a109869cf5 a{
+font-size:16px;
+}
+.z85b75b9af9a3ed89862c1983be8238ed i{
+border-radius: 50%;
+width: 36.6px;
+text-align: center;
+height: 37.4px;
+}
+iframe{
+border: none!important;
+}
+.z85b75b9af9a3ed89862c1983be8238ed i:hover{
+background: white;
+color: #ffcb11;
+border-radius: 50%;
+width: 36.7px;
+text-align: center;
+height: 37.5px;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card .card-body{
+padding: 1.75rem 2rem;
+}
+.w1854e0ed8bb915957f322c294912ccfc{
+font-size:16px!important;
+color: #676767;
+}
+html{
+scroll-behavior: smooth;
+}
+.z503f407f303fdec2870c36960c41c670{
+font-size: 14.5px;
+}
+.w9c1f2f905362949184ff128089b8ba93 .card{
+position: relative;
+z-index: 1;
+margin-bottom: 1.5rem;
+}
+.cc24c9d7a4f49fd7b052887fb87d8e020{
+max-height: 300px;
+overflow-y: auto;
+}
+.bbb425054f5998e831e77b0a109869cf5 *{
+color:#030303!important;
+}
+*{
+font-family: 'Kumbh Sans', sans-serif;
+}
+.v939b249b180b1ff154a8a15d5b248de2{
+font-weight: inherit;
+background-image: linear-gradient(120deg, #ffce60 0%, #ffd96b 100%);
+background-repeat: no-repeat;
+background-size: 100% 30%;
+background-position: 0 90%;
+transition: background-size 0.2s ease-in;
+}
+ 
+@media only screen and (max-width:1000px) {
+.bcec5d60fba0c5d546244e3026b9ffa30 {
+min-height: 0px !important;
+}
+.xbaee1a7a31bbe57160e7fa2843a5abb7 {
+font-size: 20px;
+}
+.vd0e176f326bab9df28be3e02441583bd {
+font-size: 15px !important;
+}
+.t896c152184c2abc7e03a83ec03fff87b{
+padding-bottom: 0px !important;
+}
+} 
+</style>
+<script type='application/ld+json'> 
+{
+"@context": "http://www.schema.org",
+"@type": "ProfessionalService","name": "Special Events Photo Booths Worcester ",
+"url": "https://photoboothsworcester.netlify.app/",
+"description":"Special Events Photo Booths in Worcester is your go-to destination for adding an extra layer of fun and excitement to your special occasions. Whether you&#039;re celebrating a wedding, birthday, corporate event, or any noteworthy gathering, their photo booths are designed to capture the joy and memories of the moment. With a wide selection of customizable props and backdrops, your guests can let their creativity shine, strike playful poses, and create lasting keepsakes. The experienced and friendly team at Special Events Photo Booths ensures a seamless and enjoyable experience, leaving you with a collection of top-quality photos that will make your event truly unforgettable. From classic black and white snapshots to vibrant color prints, Special Events Photo Booths in Worcester provides a delightful way to enhance your special day and capture lasting memories.",
+"telephone":"01905 964944",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": "52.19107105147811",
+"longitude": "-2.220789908493902"
+},
+"address": {
+"@type": "PostalAddress", 
+"streetAddress": "The Kiln, 2 Copenhagen St", 
+"addressLocality": "Worcester ", 
+"postalCode": "WR1 2HB" 
+} }
+</script>
+<script type="application/ld+json">
+{
+"@type": "WebPage",
+"@context": "http://www.schema.org","temporalCoverage": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html",
+"significantLink": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html",
+"relatedLink": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html","lastReviewed": "2021-12-01",
+"mainContentOfPage": {
+"about": {"sameAs": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html","url": "https://photoboothsworcester.netlify.app/photo-booth-development.html","additionalType": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html","name": "Photo Booth Development","identifier": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html","description": "Photo Booth Development",
+"disambiguatingDescription": "Photo Booth Development"},
+"accessibilitySummary": "Photo Booth Development"},
+"mainEntityOfPage": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html","keywords": ["Photo Booth Development"],
+"award": ["Best Photo Booth Development"],
+"teaches": ["Photo Booth Development"],
+"educationalUse": ["Photo Booth Development"],
+"text": "Photo Booth Development",
+"workExample": {
+"about": {"sameAs": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html","url": "https://photoboothsworcester.netlify.app/photo-booth-development.html"
+}
+},
+"citation": {
+"@type": "CreativeWork",
+"about": {
+"url": "https://photoboothsworcester.netlify.app/photo-booth-development.html",
+"sameAs": "https://objects-us-east-1.dream.io/history-and-evolution-of-photo-booths/index.html"}
+},
+"hasPart":[
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"description":"In this section we will answer the most common questions to Photo Booth Development",
+"alternativeHeadline": "The most frequently asked questions about Photo Booth Development",
+"url": "photo-booth-development.html",
+"mainEntity": [{
+"@type": "Question","name": "When were the first photo booths invented?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The first photo booth was invented by William Pope and Edward Poole in"
+}
+},{
+"@type": "Question","name": "2. What is the history of photo booth development?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Photo booth development has seen many advances over the years, beginning with Pope and Pooles invention of a coin-operated machine in 1889 that produced 8 photos on a strip for 25 cents. Since then, features such as color photography, digital printing, and props have been added to modernize the experience."
+}
+},{
+"@type": "Question","name": "How have photo booths changed over time?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Photo booths have become more automated, allowing users to control their own images without assistance from an operator; they now offer digital prints with unlimited copies; they can be incorporated into larger events to provide entertainment or marketing opportunities; they often include props for creative posing; and they may also include social media integration for increased sharing potential."
+}
+},{
+"@type": "Question","name": "What are the most popular uses of photo booths today?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Today, photo booths are commonly used at weddings, birthdays, corporate events, trade shows and other celebrations where guests want a fun way to document their memories. They can also be used as promotional tools at retail stores or business venues to capture customer data or create brand awareness through shared content online via social media networks."
+}
+},{
+"@type": "Question","name": "What are the different types of photo booth technology available today?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Modern day photo booths come in various shapes and sizes ranging from traditional free-standing kiosks to open air setups that can fit multiple people at once or green screen backdrops with real-time editing capabilities for creating custom backgrounds or adding text overlays to images before printing them out. There are also portable versions that allow operators to set up anywhere quickly and easily without needing any additional equipment or power sources"
+}
+}]
+}]
+}
+</script><script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "Product",
+"name": "Photo Booth Development",
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "3","ratingCount": "44",
+"reviewCount": "74"
+}
+}
+</script></head>
+<body>
+<nav class="navbar-expand-lg navbar">
+<a class="navbar-brand" href="https://photoboothsworcester.netlify.app/index.html"  ></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon  fa fa-bars"></span></button><div class="navbar-collapse collapse" id="navbarSupportedContent">
+<ul class="d-flex navbar-nav align-items-center ml-auto"><li class="nav-item"><a class="nav-link x7f8c348df55b46abf22846efd1acacb8" href="https://photoboothsworcester.netlify.app/news.html" rel="nofollow" >News</a></li>
+<li class="nav-item">
+<a class="x7f8c348df55b46abf22846efd1acacb8 nav-link" href="https://photoboothsworcester.netlify.app/index.html" >History and Evolution of Photo Booths</a>
+</li>
+<li class="nav-item">
+<a class="x7f8c348df55b46abf22846efd1acacb8 nav-link" href="https://photoboothsworcester.netlify.app/automated-photography.html" >Automated Photography</a>
+</li>
+<li class="nav-item">
+<a class="x7f8c348df55b46abf22846efd1acacb8 nav-link" href="https://photoboothsworcester.netlify.app/photo-booth-development.html" >Photo Booth Development</a>
+</li>
+<li class="nav-item">
+<a class="nav-link x7f8c348df55b46abf22846efd1acacb8" href="https://photoboothsworcester.netlify.app/early-photo-booths.html" >Early Photo Booths</a>
+</li>
+<li class="nav-item dropdown">
+<a class="x7f8c348df55b46abf22846efd1acacb8 dropdown-toggle nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">More</a>
+<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://photoboothsworcester.netlify.app/photo-booths-photographic-self-portraits.html"  >Photo Booths Photographic Self Portraits</a></div>
+</li>
+<li class="nav-item"><a class="x7f8c348df55b46abf22846efd1acacb8 nav-link" rel=nofollow href="https://photoboothsworcester.netlify.app/about-us.html">About Us</a>
+</li><li class="nav-item">
+<a class="v5a414d5a33193d4743b4808fe00359db btn btn-md" href="https://www.specialeventsphotobooths.co.uk/" rel="nofollow">Contact Us</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="container-fluid bbb425054f5998e831e77b0a109869cf5"><div class="pb-5  row">
+<div class="container pt-3">
+<div class="row">
+<div class="text-center col-lg-12 " id="Photo Booth Development">
+<h1 class="mb-0 xbaee1a7a31bbe57160e7fa2843a5abb7 text-dark">Photo Booth Development</h1> 
+<h2 class="vd0e176f326bab9df28be3e02441583bd t48fe0f0473cb3b4c98eac2a7b2eaa37c"><b>Photo Booth Development</b></h2></div>
+<div class=" m-auto col-lg-12">
+<div class="content">
+
+Photo booth development is a process of creating customised, automated solutions for capturing and sharing digital images. This could range from using existing technologies to create interactive experiences or designing entirely new systems for taking photographs. The end result of the development process is an integrated system that allows users to capture and share photos in an efficient and fun way. <br /> <br /> The first step in photo booth development is to define the requirements of the project. This includes understanding the purpose of the booth, any specific features or functionality required, and budget considerations. Once these parameters are established, developers can begin planning how to best achieve the desired goals within those constraints. <br /> <br /> Next comes designing the user experience; this involves crafting visuals that will attract people and encourage them to use the booth as well as developing a logical workflow so users can easily understand how it works. Developers must also consider technical elements such as security measures, image storage capacity, lighting options, and printing capabilities. <br /> <br /> Once all these components have been developed, software engineers take over to craft an intuitive interface with easy-to-use navigation tools that allow users to quickly find what they need while minimizing frustration during their visit. Finally, extensive testing must be performed before releasing any application into production. <br /> <br /> Overall, photo booth development requires considerable skill and expertise across many different disciplines including design, software engineering, user experience research, marketing strategy, and quality assurance testing. When done correctly however it can provide businesses with unique opportunities for engagement with their customers while simultaneously increasing their brand visibility through creative digital images shared on social media platforms.<p><a class="vdbe8feb2e65dc00eac1e7e099145f9c0 x7f8c348df55b46abf22846efd1acacb8" href="https://photoboothsworcester.netlify.app/index.html">History and Evolution of Photo Booths</a></p>
+</div><p><a class="vdbe8feb2e65dc00eac1e7e099145f9c0" href="https://photoboothsworcester.netlify.app/early-photo-booths.html">Early Photo Booths</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="pb-4 container-fluid">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<h4 >Check our other pages :</h4>
+<ul>
+<li>
+<a href="https://photoboothsworcester.netlify.app/index.html" >Photo Booths Photographic Self Portraits</a></li>
+<li>
+<a href="https://photoboothsworcester.netlify.app/automated-photography.html" >History and Evolution of Photo Booths</a></li>
+<li>
+<a href="https://photoboothsworcester.netlify.app/photo-booth-development.html" >Early Photo Booths</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div><div class="a031a71eae149acbe10abe0fc1c504b16 x6784da3df5b10ec3c45995b671e827ae py-5">
+<div class="container">
+<div class="justify-content-center row">
+<div class="col-lg-6">
+<div class="pb-3 text-center">
+<h3> Frequently Asked Questions</h3>
+<div class="line"></div>
+</div>
+</div>
+</div>
+<div class="justify-content-center row">
+<div class="col-lg-8">
+<div class="accordion w9c1f2f905362949184ff128089b8ba93" id="faqAccordion">
+<div class="card border-0">
+<div class="card-header" id="heading0">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0"> When were the first photo booths invented?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapse0" aria-labelledby="heading0" data-parent="#faqAccordion">
+<div class="card-body">The first photo booth was invented by William Pope and Edward Poole in</div>
+</div>
+</div>
+<div class="border-0 card">
+<div class="card-header" id="heading1">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"> 2. What is the history of photo booth development?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapse1" aria-labelledby="heading1" data-parent="#faqAccordion">
+<div class="card-body">Photo booth development has seen many advances over the years, beginning with Pope and Pooles invention of a coin-operated machine in 1889 that produced 8 photos on a strip for 25 cents. Since then, features such as color photography, digital printing, and props have been added to modernize the experience.</div>
+</div>
+</div>
+<div class="card border-0">
+<div class="card-header" id="heading2">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2"> How have photo booths changed over time?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapse2" aria-labelledby="heading2" data-parent="#faqAccordion">
+<div class="card-body">Photo booths have become more automated, allowing users to control their own images without assistance from an operator; they now offer digital prints with unlimited copies; they can be incorporated into larger events to provide entertainment or marketing opportunities; they often include props for creative posing; and they may also include social media integration for increased sharing potential.</div>
+</div>
+</div>
+<div class="border-0 card">
+<div class="card-header" id="heading3">
+<h6 class="collapsed mb-0" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3"> What are the most popular uses of photo booths today?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapse3" aria-labelledby="heading3" data-parent="#faqAccordion">
+<div class="card-body">Today, photo booths are commonly used at weddings, birthdays, corporate events, trade shows and other celebrations where guests want a fun way to document their memories. They can also be used as promotional tools at retail stores or business venues to capture customer data or create brand awareness through shared content online via social media networks.</div>
+</div>
+</div>
+<div class="card border-0">
+<div class="card-header" id="heading4">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4"> What are the different types of photo booth technology available today?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapse4" aria-labelledby="heading4" data-parent="#faqAccordion">
+<div class="card-body">Modern day photo booths come in various shapes and sizes ranging from traditional free-standing kiosks to open air setups that can fit multiple people at once or green screen backdrops with real-time editing capabilities for creating custom backgrounds or adding text overlays to images before printing them out. There are also portable versions that allow operators to set up anywhere quickly and easily without needing any additional equipment or power sources</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container pt-5 py-4" >
+<div class="row"><div class="col-lg-3">
+<p>Special Events Photo Booths Worcester </p>
+<p>Phone : 01905 964944</p>
+<p>Email : info@specialeventsphotobooths.co.uk</p>
+<p>City : Worcester </p>
+<p>Zip : WR1 2HB</p>
+<p>Address : The Kiln, 2 Copenhagen St</p>
+<p>Company Website : <a class="x7f8c348df55b46abf22846efd1acacb8" href="https://www.specialeventsphotobooths.co.uk/worcestershire/" rel="nofollow">https://www.specialeventsphotobooths.co.uk/worcestershire/</a></p>
+</div><div class="col-lg-3"><p><a class="x7f8c348df55b46abf22846efd1acacb8" href="https://photoboothsworcester.netlify.app/sitemap.html" rel="nofollow">Sitemap</a></p>
+<p><a class="x7f8c348df55b46abf22846efd1acacb8" href="https://photoboothsworcester.netlify.app/privacy-policy.html" rel="nofollow">Privacy Policy</a></p>
+<p><a class="x7f8c348df55b46abf22846efd1acacb8" href="https://photoboothsworcester.netlify.app/about-us.html" rel="nofollow">About Us</a></p>
+</p>
+</div></div>
+</div>
+</footer>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+var dropdowns = document.querySelectorAll('.dropdown-hover');
+function showDropdown() {
+var dropdownMenu = this.querySelector('.dropdown-menu');
+dropdownMenu.style.display = 'block';
+}
+function hideDropdown() {
+var dropdownMenu = this.querySelector('.dropdown-menu');
+dropdownMenu.style.display = 'none';
+}
+function handleClick(event) {
+var target = event.target;
+window.location.href = target.getAttribute('href');
+}
+dropdowns.forEach(function(dropdown) {
+dropdown.addEventListener('mouseenter', showDropdown);
+dropdown.addEventListener('mouseleave', hideDropdown);
+var dropdownMenu = dropdown.querySelector('.dropdown-toggle');
+dropdownMenu.addEventListener('click', handleClick);
+});
+});
+</script>
+</body>
+</html>
